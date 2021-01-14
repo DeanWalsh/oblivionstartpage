@@ -71,11 +71,11 @@ form input {
 }
 
 .gate {
-  width: 100%;
+  width: 60%;
 }
 
 .gate img {
-  width: 100%;
+  width: 60%;
 }
 
 .search form input::-webkit-input-placeholder {
@@ -143,18 +143,26 @@ form input {
 }
 
 .sidepanel-links {
-  padding: 20rem 0;
+  padding: 15rem 0;
   text-align: center;
 }
 
 .sidepanel-1 a, .sidepanel-2 a {
   color: #212121;
-  padding: 8px 8px 8px 32px;
-  font-size: 25px;
+  padding: 30px 5px 30px 5px;
+  margin: auto;
+  font-size: 22px;
   display: block;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   overflow: hidden;
+  width: auto;
+}
+
+.sidepanel-1 a:hover, .sidepanel-2 a:hover {
+  color: #460000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .sidepanel-1 .closebtn-1 {
@@ -182,7 +190,7 @@ form input {
   color: ghostwhite;
   border: none;
   margin: 0 30px;
-  width: 3rem;
+  width: 5rem;
 }
 
 .openbtn-2 {
@@ -195,7 +203,7 @@ form input {
   color: ghostwhite;
   border: none;
   margin: 0 30px;
-  width: 3rem;
+  width: 5rem;
 }
 
 .openbtn-1 .gate:hover, .openbtn-2 .gate:hover {

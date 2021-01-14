@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url(/oblivion-font.ttf)  format('truetype')}
-
+    src: url(/oblivion-font.ttf)  format('truetype')
+}
 * {
     margin: 0;
     padding: 0;
@@ -26,8 +26,6 @@ body {
             padding: 2rem 0;
         }
     }
-
-
     .center {
         position: absolute; 
         left: 0; 
@@ -39,14 +37,9 @@ body {
         text-align: center;
     }
 }
-
-
 #main-content {
     display: none;
 }
-
-
-
 form {
     overflow: hidden;
 
@@ -61,37 +54,28 @@ form {
         outline: 0;
         margin-bottom: 20px;
     }
-    
 }
-
-
-
-
 #time {
     font-size: 4rem;
 }
-
 .bottom-line {
     width: 5rem;
     height: 0.15em;
     background-color: ghostwhite;
 }
-
 .gate {
-    width: 100%;
+    width: 60%;
 
     img {
-        width: 100%;
+        width: 60%;
     }
 }
-
 .search form input::placeholder {
     text-align: center;
     letter-spacing: .5em;
     opacity: 1;
     color:#fff;
 }
-
 .sidepanel-1 {
     height: 100%;
     width: 0; /* 0 width - change this with JavaScript */
@@ -106,8 +90,6 @@ form {
     overflow: hidden;
     padding-top: 60px;
     transition: 0.5s;
-
-
   }
 .sidepanel-2 {
     height: 100%;
@@ -125,16 +107,22 @@ form {
     transition: 0.5s;
   }
   .sidepanel-links {
-      padding: 20rem 0;
+      padding: 15rem 0;
       text-align: center;
   }
   .sidepanel-1 a, .sidepanel-2 a {
     color: #212121;
-    padding: 8px 8px 8px 32px;
-    font-size: 25px;
+    padding: 30px 5px 30px 5px;
+    margin: auto;
+    font-size: 22px;
     display: block;
     transition: 0.2s;
     overflow: hidden;
+    width: auto;
+  }
+  .sidepanel-1 a:hover, .sidepanel-2 a:hover {
+    color: rgb(70, 0, 0);
+    transition: 0.3s;
   }
   .sidepanel-1 .closebtn-1 {
     position: absolute;
@@ -159,7 +147,7 @@ form {
     color: ghostwhite;
     border: none;
     margin: 0 30px;  
-    width: 3rem;
+    width: 5rem;
   }
   .openbtn-2 {
     position: absolute;
@@ -171,7 +159,7 @@ form {
     color: ghostwhite;
     border: none;
     margin: 0 30px;
-    width: 3rem;
+    width: 5rem;
   }
   .openbtn-1 .gate:hover, .openbtn-2 .gate:hover {
     margin-bottom: 15px;
