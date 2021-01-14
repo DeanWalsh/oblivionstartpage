@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(/oblivion-font.ttf)  format('truetype')}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a, a:hover, a:focus, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+body {
+    font-family: 'MyWebFont';
+    color: ghostwhite;
+    background: url(/img/bg/nine-divines.png) no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    letter-spacing: .3em;
+
+    header{
+        h2 {
+            padding: 2rem 0;
+        }
+    }
+
+
+    .center {
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        min-width: 35vw;
+        bottom: 10%;
+        text-align: center;
+    }
+}
+
+
+#main-content {
+    display: none;
+}
+
+
+
+form {
+    overflow: hidden;
+
+    input {
+        font-family: 'MyWebFont';
+        border:none;
+        border-bottom: 2px solid #fff;
+        min-width: 670px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        color: #fff;
+        outline: 0;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+#time {
+    font-size: 4rem;
+}
+
+.bottom-line {
+    width: 5rem;
+    height: 0.15em;
+    background-color: ghostwhite;
+}
+
+.gate {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.search form input::placeholder {
+    text-align: center;
+    letter-spacing: .5em;
+    opacity: 1;
+    color:#fff;
+}
+
+.sidepanel-1 {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(/img/bg/daedric.png);
+    background-repeat: no-repeat;
+    background-size: 58vh;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+
+
+  }
+.sidepanel-2 {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-image: url(/img/bg/spriggan.png);
+    background-repeat: no-repeat;
+    background-size: 58vh;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  .sidepanel-links {
+      padding: 20rem 0;
+      text-align: center;
+  }
+  .sidepanel-1 a, .sidepanel-2 a {
+    color: #212121;
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    display: block;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+  .sidepanel-1 .closebtn-1 {
+    position: absolute;
+    bottom: 50%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidepanel-2 .closebtn-2 {
+    position: absolute;
+    bottom: 50%;
+    left: 15px;
+    font-size: 36px;
+    margin-right: 20px;
+  }
+  .openbtn-1 {
+    position: absolute;
+    bottom: 47%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(17, 17, 17, 0);
+    color: ghostwhite;
+    border: none;
+    margin: 0 30px;  
+    width: 3rem;
+  }
+  .openbtn-2 {
+    position: absolute;
+    bottom: 47%;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(17, 17, 17, 0);
+    color: ghostwhite;
+    border: none;
+    margin: 0 30px;
+    width: 3rem;
+  }
+  .openbtn-1 .gate:hover, .openbtn-2 .gate:hover {
+    margin-bottom: 15px;
+    transition: 0.3s;
+  }
+  .openbtn-1 .gate, .openbtn-2 .gate {
+    transition: 0.3s;
+  }
+  .openbtn-1:focus, .openbtn-2:focus {
+      outline: none;
+  }
