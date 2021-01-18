@@ -84,6 +84,7 @@ form {
     top: 0;
     left: 0;
     background-image: url(/img/bg/daedric.png);
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: 58vh;
     background-position: center;
@@ -93,12 +94,13 @@ form {
   }
 .sidepanel-2 {
     height: 100%;
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0;
     position: fixed;
     z-index: 2;
     top: 0;
     right: 0;
     background-image: url(/img/bg/spriggan.png);
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: 58vh;
     background-position: center;
@@ -113,12 +115,12 @@ form {
   .sidepanel-1 a, .sidepanel-2 a {
     color: #212121;
     padding: 30px 5px 30px 5px;
-    margin: auto;
     font-size: 22px;
-    display: block;
+    display: flex;
     transition: 0.2s;
     overflow: hidden;
     width: auto;
+    justify-content: center;
   }
   .sidepanel-1 a:hover, .sidepanel-2 a:hover {
     color: rgb(70, 0, 0);
